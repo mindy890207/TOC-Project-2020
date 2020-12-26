@@ -5,10 +5,10 @@ from flask import Flask, jsonify, request, abort, send_file
 from dotenv import load_dotenv
 from linebot import LineBotApi, WebhookParser
 from linebot.exceptions import InvalidSignatureError
-from linebot.models import MessageEvent, TextMessage, TextSendMessage
+from linebot.models import MessageEvent, TextMessage, TextSendMessage, ImageSendMessage
 
 from fsm import TocMachine
-from utils import send_text_message
+from utils import send_text_message, send_image_message
 
 load_dotenv()
 
@@ -112,8 +112,9 @@ def webhook_handler():
         response = machine.advance(event)
         if response == False:
             if event.message.text == 'fsm':
-                send_text_message(event.reply_token,
-                                  'https://23d503f8989a.ngrok.io/show-fsm')
+                send_image_message(event.reply_token,
+                                   'https://1738d1d9c78c.ngrok.io/show-fsm')
+
             else:
                 send_text_message(event.reply_token, "Not Entering any State")
 

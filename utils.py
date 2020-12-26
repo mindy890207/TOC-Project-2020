@@ -5,6 +5,7 @@ from linebot.models import MessageEvent, TextMessage, TextSendMessage, ImageSend
 
 
 channel_access_token = os.getenv("LINE_CHANNEL_ACCESS_TOKEN", None)
+to = "U28c2f03130bfd0a34ab6863676b4e157"
 
 
 def send_text_message(reply_token, text):
