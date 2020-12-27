@@ -60,7 +60,7 @@ def send_japanese_type(reply_token, id):
         template=ButtonsTemplate(
             title='餐點類型',
             text='點擊你有興趣的料理',
-            thumbnail_image_url='https://imgur.com/HlnC9N6',
+            thumbnail_image_url='https://i.imgur.com/ZWMxMBT.jpg',
             actions=[
                 MessageTemplateAction(
                     label='飯類',
@@ -89,7 +89,7 @@ def send_thai_restaurant_type(reply_token, id):
         template=ButtonsTemplate(
             title='泰式餐廳',
             text='點擊餐廳看介紹',
-            thumbnail_image_url='https://imgur.com/M5qC6xd',
+            thumbnail_image_url='https://i.imgur.com/M5qC6xd.jpg',
             actions=[
                 MessageTemplateAction(
                     label='山豬林',
@@ -114,7 +114,7 @@ def send_korean_restaurant_type(reply_token, id):
         template=ButtonsTemplate(
             title='韓式餐廳',
             text='點擊餐廳看介紹',
-            thumbnail_image_url='https://imgur.com/I4w6jPT',
+            thumbnail_image_url='https://i.imgur.com/I4w6jPT.jpg',
             actions=[
                 MessageTemplateAction(
                     label='豬對有',
@@ -143,7 +143,7 @@ def send_tainan_restaurant_type(reply_token, id):
         template=ButtonsTemplate(
             title='排隊美食',
             text='點擊餐廳看介紹',
-            thumbnail_image_url='https://imgur.com/prSNnGs',
+            thumbnail_image_url='https://i.imgur.com/prSNnGs.jpg',
             actions=[
                 MessageTemplateAction(
                     label='小赤佬',
@@ -172,7 +172,7 @@ def send_hotpot_restaurant_type(reply_token, id):
         template=ButtonsTemplate(
             title='火鍋',
             text='點擊餐廳看介紹',
-            thumbnail_image_url='https://imgur.com/80waVGx',
+            thumbnail_image_url='https://i.imgur.com/80waVGx.jpg',
             actions=[
                 MessageTemplateAction(
                     label='築間',
@@ -197,7 +197,7 @@ def send_diner_restaurant_type(reply_token, id):
         template=ButtonsTemplate(
             title='美式餐廳',
             text='點擊餐廳看介紹',
-            thumbnail_image_url='https://imgur.com/mupVQCY',
+            thumbnail_image_url='https://i.imgur.com/mupVQCY.jpg',
             actions=[
                 MessageTemplateAction(
                     label='sk尚恩廚房',
@@ -222,7 +222,7 @@ def send_japanese_rice_type(reply_token, id):
         template=ButtonsTemplate(
             title='飯類',
             text='想吃什麼',
-            thumbnail_image_url='https://imgur.com/NztQ03c',
+            thumbnail_image_url='https://i.imgur.com/aTWsQGB.jpg',
             actions=[
                 MessageTemplateAction(
                     label='丼飯',
@@ -251,7 +251,7 @@ def send_japanese_rice_restaurant_type(reply_token, id):
         template=ButtonsTemplate(
             title='丼飯',
             text='點擊餐廳看介紹',
-            thumbnail_image_url='https://imgur.com/aTWsQGB',
+            thumbnail_image_url='https://i.imgur.com/aTWsQGB.jpg',
             actions=[
                 MessageTemplateAction(
                     label='肉肉控',
@@ -280,7 +280,7 @@ def send_japanese_teishoku_restaurant_type(reply_token, id):
         template=ButtonsTemplate(
             title='日式定食',
             text='點擊餐廳看介紹',
-            thumbnail_image_url='https://imgur.com/TU6ESPm',
+            thumbnail_image_url='https://i.imgur.com/TU6ESPm.jpg',
             actions=[
                 MessageTemplateAction(
                     label='漁人食堂',
@@ -309,7 +309,7 @@ def send_japanese_sushi_restaurant_type(reply_token, id):
         template=ButtonsTemplate(
             title='壽司、生魚片',
             text='點擊餐廳看介紹',
-            thumbnail_image_url='https://imgur.com/t7fcAMD',
+            thumbnail_image_url='https://i.imgur.com/t7fcAMD.jpg',
             actions=[
                 MessageTemplateAction(
                     label='毛丼',
@@ -338,7 +338,7 @@ def send_japanese_ramen_restaurant_type(reply_token, id):
         template=ButtonsTemplate(
             title='拉麵',
             text='點擊餐廳看介紹',
-            thumbnail_image_url='https://imgur.com/MXrZ5Bw',
+            thumbnail_image_url='https://i.imgur.com/MXrZ5Bw.jpg',
             actions=[
                 MessageTemplateAction(
                     label='覺丸',
@@ -367,7 +367,7 @@ def send_japanese_tonkatsu_restaurant_type(reply_token, id):
         template=ButtonsTemplate(
             title='豬排',
             text='點擊餐廳看介紹',
-            thumbnail_image_url='https://imgur.com/ZWMxMBT',
+            thumbnail_image_url='https://i.imgur.com/ZWMxMBT.jpg',
             actions=[
                 MessageTemplateAction(
                     label='元味屋',
@@ -415,7 +415,7 @@ def send_button_carousel(id):
                     ]
                 ),
                 CarouselColumn(
-                    thumbnail_image_url='https://imgur.com/TU6ESPm',
+                    thumbnail_image_url='https://i.imgur.com/TU6ESPm.jpg',
                     title='餐廳推薦',
                     text='想吃什麼種類?',
                     actions=[
