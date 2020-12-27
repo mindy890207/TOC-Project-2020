@@ -60,7 +60,7 @@ def send_japanese_type(reply_token, id):
         template=ButtonsTemplate(
             title='餐點類型',
             text='點擊你有興趣的料理',
-            thumbnail_image_url='https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-15/e35/120130316_1209935556036101_2012112683504480388_n.jpg?_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=105&_nc_ohc=iz3HWy45vesAX-i8hq_&se=7&tp=1&oh=14e4147c6355f24ca8ddc5d25c04a199&oe=6012021A&ig_cache_key=MjQwNzI0OTg1ODM3NjA5MTM4Nw%3D%3D.2',
+            thumbnail_image_url='https://imgur.com/HlnC9N6',
             actions=[
                 MessageTemplateAction(
                     label='飯類',
@@ -89,7 +89,7 @@ def send_thai_restaurant_type(reply_token, id):
         template=ButtonsTemplate(
             title='泰式餐廳',
             text='點擊餐廳看介紹',
-            thumbnail_image_url='https://lh3.googleusercontent.com/N224Q4Rx1_TvTx9JtUkGzC2GsDEFfPMciR6Sd2k20m_cu00XQRbB0Jr2kw1ktpL35p7BhIjz1jY_hc55oIV1nIBjGMwiGnCZbghnnqvHAzNnSI9gDj8sQypKC7f5oanews9XQSzHXcA4zZKgLBWVKSjoEm-S1K90IhT6gdHOKfGQRfrAUqMyTM3qnf2huCc4xwzrpRbnQUHvGxFeOmYsLyq3Jm2PvZCqMxGThX5bZSUyDnuKFrB1kJvrWwIPM7NL4wUpqdTtYiCUs3SKNcb7506AnZbvVVGbSJGvDs75ZIrWoFDMFtL3sAUP5SbuFslLdpw5TCMoU5lQXAZY0P-doMVKu1uG2i5XCqfPS_HqrmIoUGOtkSlB9CHanaB69XkKKKnd2-ZA2jtR12neB74sVF7_4cVqpXqLW3T4YC5Sv5snqdYTa7fdu9CDzZZZc3dVA4Z8JiQE-Zbx4YI7EmLtvmO1w7ReOYSw77OjKqbBzUJtfbUl9qVALafGGiwVb4guHa7pRgobJ-bVZkFSFpj8lwooNG1seHilUDwmbFaw8086Fy4F3UERU1t7JFGy_IGYlaxlccSkGIRj2hq6TTDAcIr9WQohLNe-qHFAycpagOqLA5shEpNeVvZPKVTvrbp4wdOk98-ocl1xBu8E8mocMa9QPap7z7WwJpP8xuRjLqTPZW9AIB2Nxcd1RUb6jg=w678-h903-no?authuser=0',
+            thumbnail_image_url='https://imgur.com/M5qC6xd',
             actions=[
                 MessageTemplateAction(
                     label='山豬林',
@@ -114,7 +114,7 @@ def send_korean_restaurant_type(reply_token, id):
         template=ButtonsTemplate(
             title='韓式餐廳',
             text='點擊餐廳看介紹',
-            thumbnail_image_url='https://decing.tw/wp-content/uploads/20190825180017_16.jpg',
+            thumbnail_image_url='https://imgur.com/I4w6jPT',
             actions=[
                 MessageTemplateAction(
                     label='豬對有',
@@ -143,7 +143,7 @@ def send_tainan_restaurant_type(reply_token, id):
         template=ButtonsTemplate(
             title='排隊美食',
             text='點擊餐廳看介紹',
-            thumbnail_image_url='https://cdn2.ettoday.net/images/4330/4330047.jpg',
+            thumbnail_image_url='https://imgur.com/prSNnGs',
             actions=[
                 MessageTemplateAction(
                     label='小赤佬',
@@ -172,7 +172,7 @@ def send_hotpot_restaurant_type(reply_token, id):
         template=ButtonsTemplate(
             title='火鍋',
             text='點擊餐廳看介紹',
-            thumbnail_image_url='https://i2.achangpro.com/img.pingu.blog/uploads/20190316115806_1.jpg',
+            thumbnail_image_url='https://imgur.com/80waVGx',
             actions=[
                 MessageTemplateAction(
                     label='築間',
@@ -197,7 +197,7 @@ def send_diner_restaurant_type(reply_token, id):
         template=ButtonsTemplate(
             title='美式餐廳',
             text='點擊餐廳看介紹',
-            thumbnail_image_url='https://i2.wp.com/hululu.tw/wp-content/uploads/flickr/41150339274_00c0e7d4e1_c.jpg',
+            thumbnail_image_url='https://imgur.com/mupVQCY',
             actions=[
                 MessageTemplateAction(
                     label='sk尚恩廚房',
@@ -222,7 +222,7 @@ def send_japanese_rice_type(reply_token, id):
         template=ButtonsTemplate(
             title='飯類',
             text='想吃什麼',
-            thumbnail_image_url='https://cdn3.tw.orstatic.com/userphoto/photo/B/93R/01SQS60779F8D4EB2B4E44px.jpg',
+            thumbnail_image_url='https://imgur.com/NztQ03c',
             actions=[
                 MessageTemplateAction(
                     label='丼飯',
@@ -251,7 +251,7 @@ def send_japanese_rice_restaurant_type(reply_token, id):
         template=ButtonsTemplate(
             title='丼飯',
             text='點擊餐廳看介紹',
-            thumbnail_image_url='https://cdn3.tw.orstatic.com/userphoto/photo/B/93R/01SQS60779F8D4EB2B4E44px.jpg',
+            thumbnail_image_url='https://imgur.com/aTWsQGB',
             actions=[
                 MessageTemplateAction(
                     label='肉肉控',
@@ -280,7 +280,7 @@ def send_japanese_teishoku_restaurant_type(reply_token, id):
         template=ButtonsTemplate(
             title='日式定食',
             text='點擊餐廳看介紹',
-            thumbnail_image_url='https://lh3.googleusercontent.com/RMKJCvhAgSPC_JwPrWkn5U9vPRplY1m-hLG892Dr9IPxsIJLBWwuhkPz4MUreayhZt0HOBVDAQEL4R5hS6IpQq9ZNpJkRhIYUiqrMxqOTl9nY223F4LA9GwVSh3AyJfIowgGS15buP00u3q6XMiYHfDtXiG0lOe1B78yoWOd5TO0Uzm8mDe_9ClaTo7B-Sd_YtpqaSHHY-wkVrjrBdWXK3Ri48Wq8MclkEPB3_fRbztSzUNkPqQXUBcrDthMTw0rcBPng9DboMRySdZc8im6N3vtSv5dGEIYh4_IO18wXGT_HB_DU-s31Nn9miwLwO1UMkkQQm-r6icFb9PnP6TKdF-Sev1TEexAUlMeVeTp2iwpufNNILBaAnQkb7EoulIZl2K5a9kbA63zwWBU0LWJG8v8RCAefI7QDPfEGHiVppVo6Hjg_meZlF2K9jMvtPIoWR5QdV-lkO--Gq18ApCDDfL0dI1qRhCrgVsjsDwqHhALu1x1u6EXiBO67XCIx2-ZQZcsZMnYD1KbHLeob4T409BPBw2FuVjKvbtts85T5d3MNeCC0GLmytF7MrQkmY_2YE95HSECk5lqj_aticvceo7KbBwcru03vSO-QIvMH4bDzo9a1IN-QINoyAQJn95e3di3_9NqfHVN7FbnUqgGxE7IGk6BWJKTkcOg6zGoPk0pE6OozN1GQfYpiw3QNg=w1204-h903-no?authuser=0',
+            thumbnail_image_url='https://imgur.com/TU6ESPm',
             actions=[
                 MessageTemplateAction(
                     label='漁人食堂',
@@ -309,7 +309,7 @@ def send_japanese_sushi_restaurant_type(reply_token, id):
         template=ButtonsTemplate(
             title='壽司、生魚片',
             text='點擊餐廳看介紹',
-            thumbnail_image_url='https://pic.pimg.tw/shu333/1506931184-944375930.jpg',
+            thumbnail_image_url='https://imgur.com/t7fcAMD',
             actions=[
                 MessageTemplateAction(
                     label='毛丼',
@@ -338,7 +338,7 @@ def send_japanese_ramen_restaurant_type(reply_token, id):
         template=ButtonsTemplate(
             title='拉麵',
             text='點擊餐廳看介紹',
-            thumbnail_image_url='https://decing.tw/wp-content/uploads/20201020222151_4.jpg',
+            thumbnail_image_url='https://imgur.com/MXrZ5Bw',
             actions=[
                 MessageTemplateAction(
                     label='覺丸',
@@ -367,7 +367,7 @@ def send_japanese_tonkatsu_restaurant_type(reply_token, id):
         template=ButtonsTemplate(
             title='豬排',
             text='點擊餐廳看介紹',
-            thumbnail_image_url='https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-15/e35/120130316_1209935556036101_2012112683504480388_n.jpg?_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=105&_nc_ohc=iz3HWy45vesAX-i8hq_&se=7&tp=1&oh=14e4147c6355f24ca8ddc5d25c04a199&oe=6012021A&ig_cache_key=MjQwNzI0OTg1ODM3NjA5MTM4Nw%3D%3D.2',
+            thumbnail_image_url='https://imgur.com/ZWMxMBT',
             actions=[
                 MessageTemplateAction(
                     label='元味屋',
@@ -396,7 +396,7 @@ def send_button_carousel(id):
         template=CarouselTemplate(
             columns=[
                 CarouselColumn(
-                    thumbnail_image_url='https://lh3.googleusercontent.com/N224Q4Rx1_TvTx9JtUkGzC2GsDEFfPMciR6Sd2k20m_cu00XQRbB0Jr2kw1ktpL35p7BhIjz1jY_hc55oIV1nIBjGMwiGnCZbghnnqvHAzNnSI9gDj8sQypKC7f5oanews9XQSzHXcA4zZKgLBWVKSjoEm-S1K90IhT6gdHOKfGQRfrAUqMyTM3qnf2huCc4xwzrpRbnQUHvGxFeOmYsLyq3Jm2PvZCqMxGThX5bZSUyDnuKFrB1kJvrWwIPM7NL4wUpqdTtYiCUs3SKNcb7506AnZbvVVGbSJGvDs75ZIrWoFDMFtL3sAUP5SbuFslLdpw5TCMoU5lQXAZY0P-doMVKu1uG2i5XCqfPS_HqrmIoUGOtkSlB9CHanaB69XkKKKnd2-ZA2jtR12neB74sVF7_4cVqpXqLW3T4YC5Sv5snqdYTa7fdu9CDzZZZc3dVA4Z8JiQE-Zbx4YI7EmLtvmO1w7ReOYSw77OjKqbBzUJtfbUl9qVALafGGiwVb4guHa7pRgobJ-bVZkFSFpj8lwooNG1seHilUDwmbFaw8086Fy4F3UERU1t7JFGy_IGYlaxlccSkGIRj2hq6TTDAcIr9WQohLNe-qHFAycpagOqLA5shEpNeVvZPKVTvrbp4wdOk98-ocl1xBu8E8mocMa9QPap7z7WwJpP8xuRjLqTPZW9AIB2Nxcd1RUb6jg=w678-h903-no?authuser=0',
+                    thumbnail_image_url='https://imgur.com/M5qC6xd',
                     title='餐廳推薦',
                     text='想吃什麼種類?',
                     actions=[
@@ -415,7 +415,7 @@ def send_button_carousel(id):
                     ]
                 ),
                 CarouselColumn(
-                    thumbnail_image_url='https://lh3.googleusercontent.com/RMKJCvhAgSPC_JwPrWkn5U9vPRplY1m-hLG892Dr9IPxsIJLBWwuhkPz4MUreayhZt0HOBVDAQEL4R5hS6IpQq9ZNpJkRhIYUiqrMxqOTl9nY223F4LA9GwVSh3AyJfIowgGS15buP00u3q6XMiYHfDtXiG0lOe1B78yoWOd5TO0Uzm8mDe_9ClaTo7B-Sd_YtpqaSHHY-wkVrjrBdWXK3Ri48Wq8MclkEPB3_fRbztSzUNkPqQXUBcrDthMTw0rcBPng9DboMRySdZc8im6N3vtSv5dGEIYh4_IO18wXGT_HB_DU-s31Nn9miwLwO1UMkkQQm-r6icFb9PnP6TKdF-Sev1TEexAUlMeVeTp2iwpufNNILBaAnQkb7EoulIZl2K5a9kbA63zwWBU0LWJG8v8RCAefI7QDPfEGHiVppVo6Hjg_meZlF2K9jMvtPIoWR5QdV-lkO--Gq18ApCDDfL0dI1qRhCrgVsjsDwqHhALu1x1u6EXiBO67XCIx2-ZQZcsZMnYD1KbHLeob4T409BPBw2FuVjKvbtts85T5d3MNeCC0GLmytF7MrQkmY_2YE95HSECk5lqj_aticvceo7KbBwcru03vSO-QIvMH4bDzo9a1IN-QINoyAQJn95e3di3_9NqfHVN7FbnUqgGxE7IGk6BWJKTkcOg6zGoPk0pE6OozN1GQfYpiw3QNg=w1204-h903-no?authuser=0',
+                    thumbnail_image_url='https://imgur.com/TU6ESPm',
                     title='餐廳推薦',
                     text='想吃什麼種類?',
                     actions=[
