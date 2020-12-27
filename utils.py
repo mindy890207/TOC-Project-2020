@@ -396,7 +396,7 @@ def send_button_carousel(id):
         template=CarouselTemplate(
             columns=[
                 CarouselColumn(
-                    thumbnail_image_url='https://imgur.com/M5qC6xd',
+                    thumbnail_image_url='https://i.imgur.com/M5qC6xd.jpg',
                     title='餐廳推薦',
                     text='想吃什麼種類?',
                     actions=[
