@@ -336,7 +336,7 @@ def webhook_handler():
         if response == False:
             if event.message.text == 'fsm':
                 send_image_message(event.reply_token,
-                                   'https://6c0e47d2f9d9.ngrok.io/show-fsm')
+                                   'https://87e5fc246842.ngrok.io/show-fsm')
 
             else:
                 send_text_message(event.reply_token,
