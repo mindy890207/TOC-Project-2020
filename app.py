@@ -14,7 +14,7 @@ load_dotenv()
 
 machine = TocMachine(
     states=["user", "start", "rice", "donburi", "tonkatsu", "teishoku", "sushi", "ramen",
-            "japanese", "tainan", "tainan_restaurant1", "tainan_restaurant2", "tainan_restaurant3", "thai", "korean", "hotpot",  "hotpot_restaurant1",  "hotpot_restaurant2", "diner", "diner_restaurant1", "diner_restaurant2", "donburi_restaurant1", "donburi_restaurant2", "donburi_restaurant3", "tonkatsu_restaurant1", "tonkatsu_restaurant2", "tonkatsu_restaurant3", "teishoku_restaurant1", "teishoku_restaurant2", "teishoku_restaurant3", "sushi_restaurant1", "sushi_restaurant2", "sushi_restaurant3", "ramen_restaurant1", "ramen_restaurant2", "ramen_restaurant3", "thai_restaurant1", "thai_restaurant2", "korean_restaurant1", "korean_restaurant2", "korean_restaurant3"],
+            "japanese", "tainan", "tainan_restaurant1", "tainan_restaurant2", "tainan_restaurant3", "thai", "korean", "hotpot",  "hotpot_restaurant1",  "hotpot_restaurant2", "diner", "diner_restaurant1", "diner_restaurant2", "donburi_restaurant1", "donburi_restaurant2", "donburi_restaurant3", "tonkatsu_restaurant1", "tonkatsu_restaurant2", "tonkatsu_restaurant3", "teishoku_restaurant1", "teishoku_restaurant2", "teishoku_restaurant3", "sushi_restaurant1", "sushi_restaurant2", "sushi_restaurant3", "ramen_restaurant1", "ramen_restaurant2", "ramen_restaurant3", "thai_restaurant1", "thai_restaurant2",  "thai_restaurant3", "korean_restaurant1", "korean_restaurant2", "korean_restaurant3"],
     transitions=[
         {
             "trigger": "advance",
@@ -241,6 +241,12 @@ machine = TocMachine(
         },
         {
             "trigger": "advance",
+            "source": "thai",
+            "dest": "thai_restaurant3",
+            "conditions": "is_going_to_thai_restaurant3",
+        },
+        {
+            "trigger": "advance",
             "source": "korean",
             "dest": "korean_restaurant1",
             "conditions": "is_going_to_korean_restaurant1",
@@ -258,7 +264,7 @@ machine = TocMachine(
             "conditions": "is_going_to_korean_restaurant3",
         },
         {"trigger": "go_back", "source": [
-            "start", "rice", "ramen", "donburi", "tainan", "tainan_restaurant1", "tainan_restaurant2", "tainan_restaurant3", "tonkatsu", "teishoku", "sushi", "thai", "japanese", "korean", "hotpot",  "hotpot_restaurant1",  "hotpot_restaurant2", "diner", "diner_restaurant1", "diner_restaurant2", "donburi_restaurant1", "donburi_restaurant2", "donburi_restaurant3", "tonkatsu_restaurant1", "tonkatsu_restaurant2", "tonkatsu_restaurant3", "teishoku_restaurant1", "teishoku_restaurant2", "teishoku_restaurant3", "sushi_restaurant1", "sushi_restaurant2", "sushi_restaurant3", "ramen_restaurant1", "ramen_restaurant2", "ramen_restaurant3", "thai_restaurant1", "thai_restaurant2", "korean_restaurant1", "korean_restaurant2", "korean_restaurant3"], "dest": "user"},
+            "start", "rice", "ramen", "donburi", "tainan", "tainan_restaurant1", "tainan_restaurant2", "tainan_restaurant3", "tonkatsu", "teishoku", "sushi", "thai", "japanese", "korean", "hotpot",  "hotpot_restaurant1",  "hotpot_restaurant2", "diner", "diner_restaurant1", "diner_restaurant2", "donburi_restaurant1", "donburi_restaurant2", "donburi_restaurant3", "tonkatsu_restaurant1", "tonkatsu_restaurant2", "tonkatsu_restaurant3", "teishoku_restaurant1", "teishoku_restaurant2", "teishoku_restaurant3", "sushi_restaurant1", "sushi_restaurant2", "sushi_restaurant3", "ramen_restaurant1", "ramen_restaurant2", "ramen_restaurant3", "thai_restaurant1", "thai_restaurant2", "thai_restaurant3", "korean_restaurant1", "korean_restaurant2", "korean_restaurant3"], "dest": "user"},
     ],
     initial="user",
     auto_transitions=False,
@@ -336,7 +342,7 @@ def webhook_handler():
         if response == False:
             if event.message.text == 'fsm':
                 send_image_message(event.reply_token,
-                                   'https://87e5fc246842.ngrok.io/show-fsm')
+                                   ' https://6dea8cc2a2cb.ngrok.io/show-fsm')
 
             else:
                 send_text_message(event.reply_token,

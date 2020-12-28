@@ -98,6 +98,10 @@ def send_thai_restaurant_type(reply_token, id):
                 MessageTemplateAction(
                     label='BITCH小姐',
                     text='thai2'
+                ),
+                MessageTemplateAction(
+                    label='DEMO',
+                    text='thai3'
                 )
             ]
         )

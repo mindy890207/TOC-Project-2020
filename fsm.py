@@ -155,6 +155,10 @@ class TocMachine(GraphMachine):
         text = event.message.text
         return text.lower() == "thai2"
 
+    def is_going_to_thai_restaurant3(self, event):
+        text = event.message.text
+        return text.lower() == "thai3"
+
     def is_going_to_korean_restaurant1(self, event):
         text = event.message.text
         return text.lower() == "korean1"
@@ -393,6 +397,17 @@ class TocMachine(GraphMachine):
 
     def on_enter_thai_restaurant2(self, event):
         print("I'm entering thai_restaurant2")
+        reply_token = event.reply_token
+        image_url = 'https://i.imgur.com/bp3GCKZ.jpg'
+        info_url = 'https://hululu.tw/bitch/'
+        map_url = 'https://www.google.com/maps/place/BitchFryFry+%E5%8F%B0%E5%8D%97%E5%BA%97/@22.9900427,120.2179623,17z/data=!3m1!4b1!4m5!3m4!1s0x346e776e00f8629d:0xbf860b80ebfc1d9d!8m2!3d22.9900427!4d120.220151'
+        rec_url = 'https://bopomo.tw/2020-05-17/'
+        send_restaurant_info(reply_token, image_url,
+                             info_url, map_url, rec_url)
+        self.go_back()
+
+    def on_enter_thai_restaurant3(self, event):
+        print("I'm entering thai_restaurant3")
         reply_token = event.reply_token
         image_url = 'https://i.imgur.com/bp3GCKZ.jpg'
         info_url = 'https://hululu.tw/bitch/'
